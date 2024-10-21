@@ -1,0 +1,207 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 0;
+    padding: 0;
+    background-color: #000; /* Fundo preto */
+    color: #00FF08; /* Texto verde */
+}
+
+header {
+    background-color: black;
+    padding: 40px 4%; /* Espaçamento interno do header */
+}
+
+header > .menu-desktop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-desktop ul {
+    display: flex;
+    list-style: none; /* Remove marcadores da lista */
+    padding: 0;
+    margin: 0;
+}
+
+.menu-desktop li {
+    margin-right: 80px;
+}
+
+.menu-desktop a {
+    text-decoration: none; /* Remove sublinhado dos links */
+    color: #00FF08; /* Cor do texto verde nos links */
+    transition: color 0.3s; /* Transição suave ao passar o mouse */
+}
+
+.menu-desktop a:hover {
+    color: #aaffaa; /* Cor ao passar o mouse */
+}
+
+/* Estilos para o botão de contato */
+.btn-contato {
+    display: flex; /* Utiliza flexbox para alinhar o botão */
+    justify-content: flex-end; /* Alinha o botão à direita */
+}
+
+.btn-contato button {
+    padding: 10px 20px; /* Ajuste de padding para menor tamanho */
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #28a745; /* Verde para o botão */
+    border: none;
+    border-radius: 10px;
+    color: white; /* Texto branco no botão */
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-contato button:hover {
+    background-color: #218838; /* Tom mais escuro ao passar o mouse */
+}
+
+.topo-do-site {
+    display: flex; /* Utiliza flexbox para alinhar itens */
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: flex-start; /* Centraliza horizontalmente */
+    text-align: left; /* Centraliza o texto */
+}
+
+.topo-do-site img {
+    width: 200px; /* Faz a imagem ocupar 100% do hexágono */
+    height: 200px; /* Mantém a proporção da imagem */
+    border-radius: 60%;
+    border: 5px solid #00FF08;
+    margin-right: 20px; /* Margem direita reduzida */
+}
+
+.txt-topo-site {
+    color: white; /* Cor do texto na seção do topo */
+    margin-top: 40px;
+    text-align: left; /* Alinhamento à esquerda */
+}
+
+.txt-topo-site h1 {
+    font-weight: 400; /* Peso da fonte */
+    font-size: 1.5em; /* Tamanho da fonte */
+    margin: 20px 0;
+}
+
+.txt-topo-site h3 {
+    color: white; /* Cor do texto */
+    margin: 10px 0; /* Margens reduzidas */
+}
+
+main {
+    padding: 20px; /* Espaçamento interno do main */
+}
+
+section {
+    margin-top: 20px; /* Margem superior */
+}
+
+.sobre-mim {
+    padding: 20px;
+    margin: 40px auto;
+    max-width: 800px;
+    color: white;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+}
+
+.sobre-mim p {
+    line-height: 1.6;
+    margin: 20px 0;
+    text-align: justify;
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    margin: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin-top: 2px;
+}
+
+.container {
+    padding: 0px 50px;
+}
+
+nav a {
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: #5BBE42;
+}
+
+.contact-form input {
+    width: 100%;
+    padding: 8px 0;
+    margin: 8px 0;
+}
+
+.contact-form input[type=text] {
+    height: 40px; /* Ajustado para melhor aparência */
+}
+
+button {
+    color: black;
+    background-color: white;
+    border: none;
+    width: 100px;
+    height: 30px;
+}
+
+.social-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn-social {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border: 2px solid #4CAF50;  /* Borda verde */
+    border-radius: 50%;
+    color: #4CAF50;
+    font-size: 24px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.btn-social:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+.form-contato {
+    padding: 10px 20px; /* Ajuste de padding */
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #28a745; /* Verde para o botão */
+    border: none;
+    border-radius: 10px;
+    color: white; /* Texto branco no botão */
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form-contato:hover {
+    background-color: #218838; /* Tom mais escuro ao passar o mouse */
+}
