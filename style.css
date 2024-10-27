@@ -44,11 +44,11 @@ header > .menu-desktop {
     justify-content: flex-end; /* Alinha o botão à direita */
 }
 
-.btn-contato button {
+.btn-contato input {
     padding: 10px 20px; /* Ajuste de padding para menor tamanho */
     font-size: 18px;
     font-weight: 400;
-    background-color: #28a745; /* Verde para o botão */
+    background-color: #00FF08; /* Verde para o botão */
     border: none;
     border-radius: 10px;
     color: white; /* Texto branco no botão */
@@ -56,23 +56,31 @@ header > .menu-desktop {
     transition: background-color 0.3s;
 }
 
-.btn-contato button:hover {
+.btn-contato input:hover {
     background-color: #218838; /* Tom mais escuro ao passar o mouse */
 }
 
 .topo-do-site {
     display: flex; /* Utiliza flexbox para alinhar itens */
     align-items: center; /* Centraliza verticalmente */
-    justify-content: flex-start; /* Centraliza horizontalmente */
-    text-align: left; /* Centraliza o texto */
+    justify-content: center; /* Centraliza horizontalmente */
+    text-align: center; /* Centraliza o texto */
+    margin: 40px 0; /* Margem acima e abaixo */
 }
 
 .topo-do-site img {
     width: 200px; /* Faz a imagem ocupar 100% do hexágono */
     height: 200px; /* Mantém a proporção da imagem */
-    border-radius: 60%;
-    border: 5px solid #00FF08;
-    margin-right: 20px; /* Margem direita reduzida */
+    border-radius: 50%; /* Faz a imagem ser redonda */
+    border: 5px solid #00FF08; /* Borda verde */
+    margin-right: 40px; /* Margem entre a imagem e o texto */
+}
+
+.img-hobby {
+    width: 100%; /* Para que a imagem ocupe toda a largura da seção */
+    max-width: 600px; /* Limite a largura máxima da imagem */
+    border-radius: 10px; /* Borda arredondada */
+    margin-top: 20px; /* Espaçamento acima da imagem */
 }
 
 .txt-topo-site {
@@ -102,17 +110,34 @@ section {
 
 .sobre-mim {
     padding: 20px;
-    margin: 40px auto;
+    margin-bottom:  40px auto;
     max-width: 800px;
-    color: white;
+    color: white; /* Cor do texto */
     border-radius: 8px;
+    text-align: center; /* Centraliza o texto */
     font-family: Arial, sans-serif;
 }
 
-.sobre-mim p {
-    line-height: 1.6;
-    margin: 20px 0;
-    text-align: justify;
+.frase-centralizada {
+    color: white; /* Cor do texto */
+    margin-bottom: 200px; /* Margem em cima e embaixo */
+    width: 100%; /* Ocupa 100% da largura do seu elemento pai */
+    text-align: center; /* Centraliza o texto */
+    padding: 20px; /* Adiciona espaço interno */
+}
+
+.texto-menor {
+    color: white; /* Cor do texto */
+    margin: 0; /* Margem em cima e embaixo */
+    font-size: 0.9em; /* Tamanho da fonte menor para o parágrafo */
+    line-height: 1.6; /* Espaçamento entre linhas */
+    text-align: justify; /* Justifica o texto */
+}
+
+.texto-menor p {
+    color: white; /* Cor do texto */
+    line-height: 1.4; /* Espaçamento entre linhas */
+    text-align: center; /* Justifica o texto dos parágrafos */
 }
 
 footer img {
@@ -176,32 +201,27 @@ button {
     justify-content: center;
     width: 60px;
     height: 60px;
-    border: 2px solid #4CAF50;  /* Borda verde */
+    border: 2px solid #00FF08;  /* Borda verde */
     border-radius: 50%;
-    color: #4CAF50;
+    color: #00FF08;
     font-size: 24px;
     text-decoration: none;
     transition: all 0.3s ease;
 }
 
 .btn-social:hover {
-    background-color: #4CAF50;
+    background-color: #00FF08;
     color: white;
 }
-
-
-.form-contato {
-    padding: 10px 20px; /* Ajuste de padding */
-    font-size: 18px;
-    font-weight: 400;
-    background-color: #28a745; /* Verde para o botão */
-    border: none;
-    border-radius: 10px;
-    color: white; /* Texto branco no botão */
-    cursor: pointer;
-    transition: background-color 0.3s;
+.form-group {
+    max-width: 600px; /* Ajuste a largura máxima do grupo do formulário */
+    margin: 0 auto; /* Centraliza o grupo do formulário */
 }
 
-.form-contato:hover {
-    background-color: #218838; /* Tom mais escuro ao passar o mouse */
+.form-control {
+    width: 100%; /* Garante que o campo de entrada ocupe 100% do seu contêiner */
+}
+
+textarea {
+    resize: none; /* Impede o redimensionamento do textarea */
 }
